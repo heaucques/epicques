@@ -1,0 +1,44 @@
+[package]
+name = "stump"
+version = "0.1.0"
+authors = ["heaucques"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winit = "0.18"
+ggez = "0.5"
+rand = "0.7.3"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "test"
+path = "src/test.rs"
+
+[[bin]]
+name = "test2"
+path = "src/test2.rs"
+
+[[bin]]
+name = "test3"
+path = "src/test3.rs"
+
+[[bin]]
+name = "files"
+path = "src/files.rs"
+
+[[bin]]
+name = "scary"
+path = "src/scary.rs"
+
+[[bin]]
+name = "scary2"
+path = "src/scary2.rs"
+
+[[bin]]
+name = "epic"
+path = "src/epic.rs"
